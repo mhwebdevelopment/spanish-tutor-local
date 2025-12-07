@@ -99,7 +99,7 @@ class StatsManager {
   static getTodayStats() {
     const today = this.getTodayKey()
     const allStats = DataManager.loadFromStorage(this.STATS_KEY, {})
-    return allStats[today] || { stars: 0, words: 0, grades: [], checkedWords: new Set() }
+    return allStats[today] || { stars: [], words: 0, grades: [], checkedWords: new Set() }
   }
 
   static saveTodayStats(stats: any) {
@@ -224,8 +224,7 @@ export default function HomePage() {
           <Card className="border-border bg-card">
             <CardHeader className="text-center pb-4">
               <p className="text-muted-foreground text-sm">
-                Start using Spanish in your daily life with your family. Perfect for children and parents wanting
-                to learn together! Find & save new translations, have natural conversations, & get grammar help using local LLMs!
+                Get the whole family speaking by incorporating natural daily vocab. <br/> Find & save new translations, have natural conversations, & get grammar help using local LLMs!
               </p>
             </CardHeader>
             <CardContent className="pt-0">

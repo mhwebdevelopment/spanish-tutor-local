@@ -15,6 +15,7 @@ import { useLocalStorage } from "@/hooks/use-local-storage"
 import { ChatService } from "@/services/chat-service"
 import { STORAGE_KEYS } from "@/lib/constants"
 import type { ChatMessage } from "@/lib/types"
+import Link from "next/link"
 
 export default function ChatPage() {
   const router = useRouter()
@@ -101,6 +102,9 @@ export default function ChatPage() {
               <MessageCircle className="h-6 w-6" />
               AI Chat Assistant
             </h2>
+            <p className="text-sm mt-2">
+                Ensure Ollama is installed, running on port 11434, & the model name selected is downloaded!
+            </p>
             <Button variant="outline" onClick={() => router.push("/")}>
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Home

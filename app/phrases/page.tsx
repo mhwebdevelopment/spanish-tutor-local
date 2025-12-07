@@ -120,30 +120,6 @@ export default function PhrasesPage() {
               </TabsContent>
             ))}
           </Tabs>
-
-          <Card className="bg-gradient-to-r from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 border-yellow-300 dark:border-yellow-700">
-            <CardHeader>
-              <CardTitle className="text-foreground flex items-center gap-2">
-                <Flag className="h-5 w-5" />
-                Mexican Expressions
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              {MEXICAN_EXPRESSIONS.English.map((_, index) => (
-                <Card key={index} className="bg-card">
-                  <CardContent className="p-4">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                      <div className="font-medium text-foreground">{MEXICAN_EXPRESSIONS.English[index]}</div>
-                      <div className="font-semibold text-yellow-700 dark:text-yellow-300">
-                        {MEXICAN_EXPRESSIONS.Spanish[index]}
-                      </div>
-                      <div className="text-sm text-muted-foreground italic">{MEXICAN_EXPRESSIONS.Usage[index]}</div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </CardContent>
-          </Card>
         </div>
       </div>
     </div>

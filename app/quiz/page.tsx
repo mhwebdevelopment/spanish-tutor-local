@@ -157,7 +157,8 @@ export default function QuizPage() {
     const shuffledWrong = allAnswers.sort(() => Math.random() - 0.5).slice(0, 3)
     options.push(...shuffledWrong)
 
-    return options
+    // Shuffle the final options array before returning
+    return options.sort(() => Math.random() - 0.5)
   }
 
   const handleAnswerClick = (answer: string) => {

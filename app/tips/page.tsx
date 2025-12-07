@@ -49,7 +49,7 @@ export default function TipsPage() {
           <div className="grid gap-6">
             <Card className="border-border">
               <CardHeader>
-                <CardTitle className="text-foreground">🎯 Implementation Strategies</CardTitle>
+                <CardTitle className="text-foreground">Implementation Strategies</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
@@ -65,7 +65,7 @@ export default function TipsPage() {
 
             <Card className="border-border bg-card">
               <CardHeader>
-                <CardTitle className="text-foreground">💪 Remember</CardTitle>
+                <CardTitle className="text-foreground">Always Remember</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
@@ -79,31 +79,31 @@ export default function TipsPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-border bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
+            <Card className="border-border bg-white">
               <CardHeader>
-                <CardTitle className="text-foreground">📚 Easy Practice</CardTitle>
+                <CardTitle className="text-foreground">Easy Practice</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="p-4 bg-white dark:bg-gray-800 rounded-lg border">
+                  <div className="p-4 bg-muted dark:bg-gray-800 rounded-lg border">
                     <h4 className="font-semibold text-foreground mb-2">🎵 Music & Songs</h4>
                     <p className="text-sm text-muted-foreground">
                       Use Spanish children's songs during daily activities. Music helps with pronunciation and memory.
                     </p>
                   </div>
-                  <div className="p-4 bg-white dark:bg-gray-800 rounded-lg border">
+                  <div className="p-4 bg-muted dark:bg-gray-800 rounded-lg border">
                     <h4 className="font-semibold text-foreground mb-2">🍳 Cooking Together</h4>
                     <p className="text-sm text-muted-foreground">
                       Cook dishes from different countries while practicing vocabulary. Hands-on experience helps!
                     </p>
                   </div>
-                  <div className="p-4 bg-white dark:bg-gray-800 rounded-lg border">
+                  <div className="p-4 bg-muted dark:bg-gray-800 rounded-lg border">
                     <h4 className="font-semibold text-foreground mb-2">📖 Story Time</h4>
                     <p className="text-sm text-muted-foreground">
                       Read simple Spanish picture books together. Start with familiar stories translated to Spanish.
                     </p>
                   </div>
-                  <div className="p-4 bg-white dark:bg-gray-800 rounded-lg border">
+                  <div className="p-4 bg-muted dark:bg-gray-800 rounded-lg border">
                     <h4 className="font-semibold text-foreground mb-2">🎮 Games & Play</h4>
                     <p className="text-sm text-muted-foreground">
                       Turn learning into games: Spanish Simon Says, color hunts, or counting games.
@@ -113,9 +113,9 @@ export default function TipsPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-border bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20">
+            <Card className="border-border bg-white">
               <CardHeader>
-                <CardTitle className="text-foreground">🌟 Success Milestones</CardTitle>
+                <CardTitle className="text-foreground">Success Milestones</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
